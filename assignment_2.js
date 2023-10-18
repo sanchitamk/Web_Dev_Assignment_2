@@ -113,6 +113,18 @@ function dark(event) {
     }
 }
 
+//Part 4
+
+
+document.addEventListener("keydown", darkShortcut);
+function darkShortcut(event) {
+    if (event.ctrlKey && event.key === "a") {
+        dark();
+    }};
+
+
+
+
 
 
 
