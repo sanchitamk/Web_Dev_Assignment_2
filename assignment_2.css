@@ -1,0 +1,22 @@
+/* Part 3 */
+/* Regular Style */
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+/* High Contrast Style */
+
+.high-contrast {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+    line-height: 2;
+}

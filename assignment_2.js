@@ -92,6 +92,29 @@ function cookieAccept(event) {
     }
 }
 
+//Part 3 
+
+
+let button=document.querySelector("#darkMode");
+button.addEventListener("click",dark)
+
+
+function dark(event) {
+
+    if (button.innerHTML === "High Contrast") {
+        document.body.setAttribute("class", "high-contrast");
+        button.innerHTML = "Low Contrast";
+
+    } else {
+
+        document.body.removeAttribute("class");
+        button.innerHTML = "High Contrast";
+        
+    }
+}
+
+
+
 
 
 
